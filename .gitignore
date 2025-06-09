@@ -1,0 +1,32 @@
+# Ignore node_modules for both frontend and backend
+frontend/node_modules/
+backend/node_modules/
+
+# Environment files (sensitive info)
+frontend/.env
+backend/config/config.env
+
+# Log files
+*.log
+npm-debug.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# Build output
+frontend/dist/
+frontend/build/
+backend/dist/
+backend/build/
+
+# Dependency lock files (optional if you're not using them in both)
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore coverage files if testing
+coverage/
